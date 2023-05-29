@@ -4,7 +4,7 @@ require "test_helper"
 
 class TrackerTest < Minitest::Test
   def setup
-    @tracker = DbChangeTracker::Tracker
+    @tracker = Sneeze::Tracker
     @dummy = DummyModel.create(name: "Test")
   end
 

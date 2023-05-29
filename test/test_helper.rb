@@ -24,7 +24,7 @@ end
 
 # Define a dummy model for the test
 class DummyModel < ActiveRecord::Base
-  include DbChangeTracker::Trackable
+  include Sneeze::Trackable
 end
 
 require "minitest/autorun"

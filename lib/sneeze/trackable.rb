@@ -5,7 +5,7 @@ require "active_support/concern"
 module Sneeze
   # This module is included into ActiveRecord::Base by the initializer in
   # lib/sneeze.rb. It adds callbacks to record changes to the database.
-  class Trackable
+  module Trackable
     extend ActiveSupport::Concern
 
     included do
