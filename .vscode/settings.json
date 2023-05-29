@@ -21,5 +21,7 @@
     "semanticHighlighting": true,
     "completion": true,
     "codeLens": true
-  }
+  },
+  "editor.tabSize": 2,
+  "editor.stickyTabStops": true
 }

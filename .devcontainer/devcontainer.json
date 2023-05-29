@@ -1,6 +1,9 @@
 {
   "name": "sneeze",
-  "image": "mcr.microsoft.com/devcontainers/ruby:3",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-20.04",
+	"features": {
+    "ghcr.io/devcontainers/features/ruby:1": { "version": "2.6" }
+	},
 	"remoteUser": "vscode",
 	"customizations": {
 		"vscode": {
