@@ -1,0 +1,12 @@
+{
+  "name": "sneeze",
+  "image": "mcr.microsoft.com/devcontainers/ruby:3",
+	"remoteUser": "vscode",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Shopify.ruby-lsp"
+			]
+		}
+	}
+}
