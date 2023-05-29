@@ -1,6 +1,10 @@
 {
   "name": "sneeze",
-  "image": "mcr.microsoft.com/devcontainers/ruby:3",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-20.04",
+	"features": {
+    "ghcr.io/devcontainers/features/ruby:1": { "version": "2.7" }
+	},
+	"onCreateCommand": "gem install bundler -v 2.3.26 && bundle install",
 	"remoteUser": "vscode",
 	"customizations": {
 		"vscode": {
